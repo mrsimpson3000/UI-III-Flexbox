@@ -302,3 +302,14 @@ footer p {
 	justify-content: flex-start;
 	padding: 0 5%;
 }
+
+#services h2 {
+	font-size: 28px;
+}
+
+#services p {
+	font-weight: bold;
+	padding-bottom: 5%;
+}
+
+/* Our Services Section */
