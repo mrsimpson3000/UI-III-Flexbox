@@ -174,7 +174,7 @@ nav {
 	display: flex;
 	height: 60px;
 	align-items: center;
-	padding: 5% 0;
+	padding: 5%;
 }
 
 nav .links {
@@ -192,7 +192,7 @@ nav .links a {
 nav .image {
 	width: 33%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 }
 
 nav img {
@@ -257,7 +257,7 @@ nav img {
 #middle img {
 	padding: 0 5%;
 	padding-bottom: 5%;
-	width: 99%;
+	width: 100%;
 }
 
 /* Bottom Section */
@@ -295,10 +295,10 @@ footer p {
 	padding: 5% 0;
 }
 
-/* section {
-  border: 1px solid gray;
+/* Services Page Since I Didn't do a great job with my naming */
+#services {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 0 5%;
 }
-
-div {
-  border: 1px sold red;
-} */
