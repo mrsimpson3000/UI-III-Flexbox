@@ -351,7 +351,6 @@ footer p {
 
 /* Facts Section */
 #facts {
-	margin: 5%;
 	display: flex;
 	width: 100%;
 }
@@ -359,12 +358,13 @@ footer p {
 #facts .outer {
 	box-sizing: border-box;
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
 	width: 50%;
-	padding-right: 5%;
+	padding: 0 5%
 }
 
 #facts .inner {
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 }
@@ -396,4 +396,5 @@ footer p {
 /* Footer Section */
 footer p {
 	font-weight: bold;
+	padding-top: 10%;
 }
