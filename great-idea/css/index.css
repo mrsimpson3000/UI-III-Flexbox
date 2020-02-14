@@ -310,6 +310,38 @@ footer p {
 #services p {
 	font-weight: bold;
 	padding-bottom: 5%;
+	line-height: 20px;
 }
 
 /* Our Services Section */
+#our-services {
+	margin: 0 3%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#our-services div {
+	box-sizing: border-box;
+	margin: 2.5%;
+	border: 1px solid black;
+	padding: 2%;
+	background-color: whitesmoke;
+	width: 45%;
+}
+
+#our-services h3 {
+	font-size: 20px;
+}
+
+#our-services p {
+	font-weight: bold;
+	line-height: 20px;
+	padding-bottom: 2%;
+}
+
+#our-services div button {
+	border-radius: 8px;
+	margin-top: 2%;
+	padding: 2% 8%;
+}
